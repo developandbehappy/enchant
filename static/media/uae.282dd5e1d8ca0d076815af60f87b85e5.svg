@@ -1,0 +1,24 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Создаем круг -->
+  <circle cx="12" cy="12" r="12" fill="none"/>
+  
+  <!-- Маска для создания круглой формы -->
+  <mask id="circleMask">
+    <circle cx="12" cy="12" r="12" fill="white"/>
+  </mask>
+  
+  <!-- Применяем маску -->
+  <g mask="url(#circleMask)">
+    <!-- Красная вертикальная полоса -->
+    <rect x="0" y="0" width="4.8" height="24" fill="#FF0000"/>
+    
+    <!-- Зеленая горизонтальная полоса -->
+    <rect x="4.8" y="0" width="19.2" height="8" fill="#00732f"/>
+    
+    <!-- Белая горизонтальная полоса -->
+    <rect x="4.8" y="8" width="19.2" height="8" fill="#FFFFFF"/>
+    
+    <!-- Черная горизонтальная полоса -->
+    <rect x="4.8" y="16" width="19.2" height="8" fill="#000000"/>
+  </g>
+</svg>
